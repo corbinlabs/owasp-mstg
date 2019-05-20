@@ -433,7 +433,7 @@ Many mobile apps don't automatically log users out because it is inconvenient fo
 
 #### Verifying Best Practices
 
-If server code is available, make sure logout functionality terminates the session is terminated . This verification will depend on the technology. Here are examples session termination for proper server-side logout:
+If server code is available, validate that the logout functionality of the application terminates the session. This verification will depend on the technology. Here are examples session termination for proper server-side logout:
 
 - [Spring (Java)](https://docs.spring.io/autorepo/docs/spring-security/4.1.x/apidocs/org/springframework/security/web/authentication/logout/SecurityContextLogoutHandler.html "Spring (Java)")
 - [Ruby on Rails](https://guides.rubyonrails.org/security.html "Ruby on Rails")
